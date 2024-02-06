@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { game, getRandomNumber } from '../../src/index.js';
+import { games, getRandomNumber } from '../../src/index.js';
 
 const randomQuestionGcd = () => {
   const number1 = getRandomNumber(101, 1);
