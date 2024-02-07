@@ -1,5 +1,6 @@
 import readlineSync from 'readline-sync';
-import getGreeting from './cli.js'; 
+import getGreeting from './cli.js';
+
 const userName = getGreeting();
 
 const randomQuestion = (defGame) => {
