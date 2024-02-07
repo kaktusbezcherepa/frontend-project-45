@@ -21,6 +21,6 @@ const randomQuestionCalc = () => {
   return [question, correctAnswer];
 };
 
-const rulesGame = 'What is the result of the expression?';
+const rulesGame = "What is the result of the expression?";
 
 game(rulesGame, randomQuestionCalc);
